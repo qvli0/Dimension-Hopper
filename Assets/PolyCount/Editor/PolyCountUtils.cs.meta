@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1609e3a7e06b44e4eba0606bb2fb9cb9
+labels:
+- EditorScript
+- Counter
+- Polygon
+- PolyCount
+- Count
+timeCreated: 1463772404
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
