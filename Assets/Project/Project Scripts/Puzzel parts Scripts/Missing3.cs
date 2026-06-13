@@ -10,11 +10,14 @@ public class Missing3 : MonoBehaviour
 
         if (other.gameObject.name == "Spot3")
         {
-            transform.position = new Vector3(other.transform.position.x, other.transform.position.y, other.transform.position.z);
-            transform.rotation = other.transform.rotation;
 
             missing3rigidbody.isKinematic = true;
             missing3interactable.enabled = false;
+
+            transform.position = new Vector3(other.transform.position.x, other.transform.position.y, other.transform.position.z);
+            transform.rotation = other.transform.rotation;
+
+            
         }
     }
 }

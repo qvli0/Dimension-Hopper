@@ -13,15 +13,16 @@ public class BoxUnlock : MonoBehaviour
     private void OnTriggerEnter(Collider other) 
     { 
         if (other.CompareTag("Key")) 
-        { 
-           
-            chest.OpenChest();
+        {
+
+            keyrb.isKinematic = true;
+            keyinteractable.enabled = false;
            
             other.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
             other.transform.rotation = transform.rotation;
 
-            keyrb.isKinematic = true;
-            keyinteractable.enabled = false;
+            chest.OpenChest();
+
 
         }
     }
